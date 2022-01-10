@@ -1,0 +1,167 @@
+* {
+  top: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../Resources/Fonts/Poppins-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Knowhere";
+  src: url(../Resources/Fonts/Knowhere-PersonalUse.otf) format("truetype");
+}
+
+body {
+  color: #fff;
+  font-family: Poppins-Regular;
+  font-size: 20px;
+  color: rgb(119, 51, 136);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    to right bottom,
+    rgba(40, 5, 63, 0.9),
+    rgba(40, 37, 206, 0.7)
+  );
+}
+
+.vis_container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.l1 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.l2 {
+  flex: 2;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.l3 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.m1 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: purple;
+  font-family: Knowhere;
+}
+
+.m2 {
+  flex: 3;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Knowhere;
+}
+
+.m3 {
+  flex: 2;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.r1 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.r2 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.r3 {
+  flex: 1;
+  background: linear-gradient(
+    to right bottom,
+    rgba(27, 9, 92, 0.9),
+    rgba(62, 6, 70, 0.7)
+  );
+  margin: 5px;
+  border-radius: 5px;
+}
